@@ -17,6 +17,7 @@ public static void main(String[] args) {
 	//create object of actions class
 		Actions act=new Actions(driver);
 		act.contextClick(target).perform();
+	System.out.println("Hi");
 
 	}
 }
